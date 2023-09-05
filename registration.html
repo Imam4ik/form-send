@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="img/logo/image_7_red.png" type="image/x-icon">
+
+	<link rel="stylesheet" href="fonts/stylesheet.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/registr.css">
+	<title>Edugately</title>
+</head>
+<body>
+	<div class="wrapper">
+		<main class="main">
+			<header class="header">
+				<div class="header__block_1">
+					<a href="index.html" class="header__block_1-logo logo">
+						<img src="img/logo/logo.svg" alt="Логотип">
+					</a>
+					<div class="header__block_1-menu">
+						<div class="header__block_1-list">
+							<a href="universities.html" class="header__block_1-list__link">Вузы</a>
+							<a href="specialties.html" class="header__block_1-list__link">Специальности</a>
+							<a href="partnership.html" class="header__block_1-list__link">Стать партнером</a>
+							<div class="header__block_1-list__link">О нас</div>
+							<div class="header__block_1-list__link">Как это работает</div>
+						</div>
+					</div>
+				</div>
+				<div class="header__block_2">
+					<div class="header__block_2-item"><img src="img/icons/phone.png" alt="Телефон"></div>
+					<div class="header__block_2-item"><img src="img/icons/person.svg" alt="Телефон"></div>
+					<div class="header__block_2-item"><div class="header__block_2-item__select">RU</div></div>
+					<div class="header__block_2-item searcher"><input class="header__block_2-item__search" type="text"></div>
+					
+					<div class="header__burger">
+						<span></span>
+					</div>
+				</div>
+			</header>
+			<div class="burger_back"></div>
+		
+			
+			<div class="fullscreen">
+				<div class="registration">
+					<img src="img/bg/Group 30.svg" class="registration-img">
+					<img src="img/bg/Vector 33.svg" class="registration-bg">
+
+					<form class="form" action="imam.r210907@gmail.com" method="post" id="form">
+						<h1 class="form-title">регистрация</h1>
+						<h1 class="form-title none">вход</h1>
+
+						<div class="form-item">
+							<label for="number" class="form-label">Ваш номер телефона</label>
+							<div class="form-input number input-js"><input class="input-js-item" id="number" type="tel"></div>
+						</div>
+						<div class="form-item">
+							<label for="pass" class="form-label">Введите пароль</label>
+							<div class="form-input pass input-js"><input class="input-js-item" id="pass" type="text"></div>
+						</div>
+						<div class="form-item">
+							<label for="pass_2" class="form-label">Повторите пароль</label>
+							<div class="form-input pass_2 input-js"><input class="input-js-item" id="pass_2" type="text"></div>
+						</div>
+						<div class="form-item">
+							<input class="form-check" type="checkbox" id="agree">
+							<label class="form-label" for="agree">Соглашаюсь с правилами</label>
+						</div>
+						<button class="form-btn" type="submit">Зарегестрироватсья</button>
+
+					</form>
+				</div>
+			</div>
+
+		</main>
+	</div>
+
+	<script src="js/header/burger.js"></script>
+	<script src="js/searcher.js"></script>
+	<script src="js/input.js"></script>
+</body>
+</html>
